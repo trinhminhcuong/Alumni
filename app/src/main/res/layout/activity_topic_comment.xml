@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.cuong.alumni.TopicComment">
+
+    <LinearLayout
+        android:id="@+id/ln14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tvOwner14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Người đăng"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000000"
+            android:background="#f3fddf"/>
+        <TextView
+            android:id="@+id/tvTopicName14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"
+            android:text="Chủ đề: Các bạn có biết có sdt thầy Hưng ko?"
+            android:layout_marginBottom="20dp"
+            android:background="#f3fddf"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/edComment14"
+                android:layout_width="270dp"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/btnComment14"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Comment"
+                android:textColor="#ffffff"
+                android:background="#FFFF5940"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnReadComment"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Xem Comment"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"
+            android:background="#FFFF5940"/>
+        <ListView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/ln14"
+            android:id="@+id/lv14"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinhc"
+    tools:context="com.example.cuong.alumni.Menu">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <Button
+            android:textColor="#ffffff"
+            android:background="#FFFF5940"
+            android:id="@+id/btnUsers04"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Users"/>
+
+        <Button
+            android:textColor="#ffffff"
+            android:background="#FFFF5940"
+            android:id="@+id/btnFeeds04"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Feeds"
+            android:layout_marginTop="2dp"/>
+        <Button
+            android:textColor="#ffffff"
+            android:background="#FFFF5940"
+            android:id="@+id/btnAboutMe04"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="About me"
+            android:layout_marginTop="2dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
